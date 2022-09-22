@@ -1,0 +1,8 @@
+.mvideos {
+  width: 75%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100%;
+}
+

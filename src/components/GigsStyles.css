@@ -1,0 +1,17 @@
+.shows {
+  width: 100%;
+  padding: 0rem 1rem;
+  background-color: #000;
+  margin: auto;
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width:640px){
+  .show-card h1 {
+    font-size: 1.5rem;
+  }
+
+
+}

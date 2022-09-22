@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+#video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  top: 0;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
+}
+
+.hero .content {
+  text-align: center;
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  top: 40vh;
+}
+
+.hero .content h1 {
+  font-size: 4rem;
+  color: #fff;
+  font-family: 'Metal Mania', cursive;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.hero p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  color: #fff;
+  text-shadow: 1px 1px 0px #000;
+}
+
+.hero .btn {
+  margin: 1rem .2rem;
+  border-radius: .2em;
+  text-shadow: 1px 1px 0px #000;
+}
+
+@media screen and (max-width:640px) {
+  .content h1 {
+    font-size: 1rem;
+  }
+
+  .content p {
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem; 
+  }
+
+  .hero .btn {
+    margin: 2rem 0rem;
+  }
+}
