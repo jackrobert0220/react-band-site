@@ -16,7 +16,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           ><FaFacebook
-            size={40}
+            size={30}
             style={{ color: "#ffffff", marginRight: "2rem" }}
           /></a>
 
@@ -26,7 +26,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           ><FaInstagram
-              size={40}
+              size={30}
               style={{ color: "#ffffff", marginRight: "2rem" }}
             />
           </a>
@@ -37,7 +37,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           ><FaTiktok
-              size={40}
+              size={30}
               style={{ color: "#ffffff", marginRight: "2rem" }}
             />
           </a>
@@ -49,7 +49,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <FaSpotify
-              size={40}
+              size={30}
               style={{ color: "#ffffff", marginRight: "2rem" }}
             />
           </a>
@@ -61,7 +61,7 @@ const Footer = () => {
             rel="noreferrer"
           >
             <FaYoutube
-              size={40}
+              size={30}
               style={{ color: "#ffffff", marginRight: "2rem" }}
             />
           </a>
@@ -70,12 +70,12 @@ const Footer = () => {
           className="icon"
           href="mailto:jackrobert0220@gmail.com" target="_blank"
             rel="noreferrer"><HiOutlineMail
-            size={40}
+            size={30}
             style={{ color: "#ffffff", marginRight: "2rem" }}
           /></a>
         </div>
       </div>
-      <p className="rights">© 2022 DARKSIDE RECORDS</p>
+      <p className="rights">© 2022 PLASTIC RHINO</p>
     </div>
   );
 };
