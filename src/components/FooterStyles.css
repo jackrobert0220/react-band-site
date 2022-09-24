@@ -16,7 +16,6 @@
 .social {
   z-index: 9;
   display: flex;
-  justify-content: center;
 }
 
 .rights {
