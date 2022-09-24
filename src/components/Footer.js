@@ -17,7 +17,7 @@ const Footer = () => {
             rel="noreferrer"
           ><FaFacebook
             size={30}
-            style={{ color: "#ffffff", marginRight: "2rem" }}
+            style={{ color: "#ffffff", margin: "1rem" }}
           /></a>
 
           <a
@@ -27,7 +27,7 @@ const Footer = () => {
             rel="noreferrer"
           ><FaInstagram
               size={30}
-              style={{ color: "#ffffff", marginRight: "2rem" }}
+              style={{ color: "#ffffff", margin: "1rem" }}
             />
           </a>
 
@@ -38,7 +38,7 @@ const Footer = () => {
             rel="noreferrer"
           ><FaTiktok
               size={30}
-              style={{ color: "#ffffff", marginRight: "2rem" }}
+              style={{ color: "#ffffff", margin: "1rem" }}
             />
           </a>
 
@@ -50,7 +50,7 @@ const Footer = () => {
           >
             <FaSpotify
               size={30}
-              style={{ color: "#ffffff", marginRight: "2rem" }}
+              style={{ color: "#ffffff", margin: "1rem" }}
             />
           </a>
 
@@ -62,7 +62,7 @@ const Footer = () => {
           >
             <FaYoutube
               size={30}
-              style={{ color: "#ffffff", marginRight: "2rem" }}
+              style={{ color: "#ffffff", margin: "1rem" }}
             />
           </a>
 
@@ -71,7 +71,7 @@ const Footer = () => {
           href="mailto:jackrobert0220@gmail.com" target="_blank"
             rel="noreferrer"><HiOutlineMail
             size={30}
-            style={{ color: "#ffffff", marginRight: "2rem" }}
+            style={{ color: "#ffffff", margin: "1rem" }}
           /></a>
         </div>
       </div>
